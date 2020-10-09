@@ -5,12 +5,18 @@
   padding: 0;
 }
 
+body {
+  background-color: #cebb98;
+  font-family: 'Cormorant SC', serif;
+}
+
 body a {
   text-decoration: none;
 }
 
 body .header {
-  height: 55vh;
+  height: 45vh;
+  background-color: #c8ce98;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,6 +31,23 @@ body .header {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+}
+
+body .header h1 {
+  font-size: 3.5rem;
+}
+
+body .header h1 span {
+  color: #8b7242;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-style: oblique;
+}
+
+body .header p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 body .wrapper {
