@@ -72,12 +72,14 @@ body .wrapper .game img {
 body .wrapper .game-text {
   padding: 2rem;
   margin: 2rem;
+  border-radius: 50%;
+  text-align: center;
   background-color: #fff;
-  border-left: 2px dotted #000;
 }
 
 body .wrapper .game-text h3 {
-  font-size: 3rem;
+  font-size: 2.2rem;
+  margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -87,7 +89,7 @@ body .wrapper .game-text h5 {
 }
 
 body .wrapper .game-text p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
