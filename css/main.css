@@ -91,6 +91,15 @@ body .wrapper .game-text {
   border: 2px dotted #000;
   text-align: center;
   background-color: #fff;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+body .wrapper .game-text:hover {
+  cursor: default;
+  background-color: #d1d6a9;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 body .wrapper .game-text h3 {

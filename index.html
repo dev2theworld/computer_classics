@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./css/main.css">
   <title>RPG Computer Classics</title>
 </head>
@@ -22,7 +23,7 @@
         <a href="" class="btn">Read more</a>
       </div>
     </section>
-    <section class="game">
+    <section class="game" data-aos="fade-left">
       <img src="./img/bg-I-sword.jpg" alt="">
       <div class="game-text">
         <h3>Baldur's Gate 
@@ -32,7 +33,7 @@
         <a href="" class="btn">Read more</a>
       </div>
     </section>
-    <section class="game">
+    <section class="game" data-aos="fade-right">
       <img src="./img/torm.jpg" alt="">
       <div class="game-text">
         <h3>Planescape Torment</h3>
@@ -41,7 +42,7 @@
         <a href="" class="btn">Read more</a>
       </div>
     </section>
-    <section class="game">
+    <section class="game" data-aos="fade-left">
       <img src="./img/id-I.jpg" alt="">
       <div class="game-text">
         <h3>Icewind Dale</h3>
@@ -50,7 +51,7 @@
         <a href="" class="btn">Read more</a>
       </div>
     </section>
-    <section class="game">
+    <section class="game" data-aos="fade-right">
       <img src="./img/bg-II.jpg" alt="">
       <div class="game-text">
         <h3>Baldur's Gate II 
@@ -119,5 +120,13 @@
       </div>
     </section>
   </main>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      delay: 800,
+    });
+  </script>
 </body>
 </html>
