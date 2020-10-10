@@ -1,4 +1,5 @@
 @import 'config';
+@import 'cover';
 
 body {
   background-color: lighten($color: $secondary-color, $amount: 20%);
