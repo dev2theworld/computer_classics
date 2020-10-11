@@ -110,8 +110,13 @@ body .wrapper .game {
           box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.75);
 }
 
+body .wrapper .game a {
+  padding: 1.2rem 1rem 1rem 1.2rem;
+}
+
 body .wrapper .game img {
   max-width: 400px;
+  max-height: 520px;
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
 }

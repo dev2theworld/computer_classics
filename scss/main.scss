@@ -49,9 +49,14 @@ body {
       background-color: $secondary-color;
       max-width: 1080px;
       box-shadow: $shadow;
+
+      a {
+        padding: 1.2rem 1rem 1rem 1.2rem;
+      }
     
       img {
         max-width: 400px;
+        max-height: 520px;
         transition: all 0.5s ease-in;
         
 
