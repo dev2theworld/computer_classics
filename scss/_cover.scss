@@ -10,10 +10,25 @@ body#cover {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
+    background-color:lighten($color: gray, $amount: 30%);
+    padding: 0.25rem 1.75rem 0.25rem;
     
     i.fas {
       margin: 1rem;
     }
+  }
+
+  a:hover {
+    color: $primary-color;
+    background-color: lighten($color: gray, $amount: 20%);
+  }
+
+  #main {
+    border-top: 1px dotted #000;
+  }
+
+  #main:hover {
+    color: $secondary-color;
   }
 
   img {
