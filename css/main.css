@@ -122,6 +122,33 @@ body#cover img:hover {
   font-size: 1.3rem;
 }
 
+nav {
+  background-color: #ad8e53;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+nav ul li {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 3rem;
+}
+
+nav ul li:hover {
+  background-color: #bda576;
+}
+
 body {
   background-color: #cebb98;
   font-family: 'Cormorant SC', serif;
@@ -132,7 +159,7 @@ body a {
 }
 
 body .header {
-  height: 45vh;
+  height: 30vh;
   background-color: #c8ce98;
   display: -webkit-box;
   display: -ms-flexbox;

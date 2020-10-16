@@ -1,6 +1,7 @@
 @import 'config';
 @import 'cover';
 @import 'article';
+@import 'nav';
 
 body {
   background-color: lighten($color: $secondary-color, $amount: 20%);
@@ -11,7 +12,7 @@ body {
   }
 
   .header {
-    height: 45vh;
+    height: 30vh;
     background-color: lighten($color: $primary-color, $amount: 20%);
     display: flex;
     flex-direction: column;

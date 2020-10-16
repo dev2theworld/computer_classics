@@ -1,0 +1,20 @@
+nav {
+  background-color: $secondary-color;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    li {
+      color: $white;
+      font-size: 1.2rem;
+      padding: 1rem 3rem;
+
+      &:hover {
+        background-color: lighten($color: $secondary-color, $amount: 10%);
+      }
+    }
+  }
+}
