@@ -124,6 +124,17 @@ body#cover img:hover {
 
 nav {
   background-color: #ad8e53;
+  /*.list {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    visibility: hidden;
+    
+    &:hover {
+      display: block;
+      visibility: visible;
+    }
+  }*/
 }
 
 nav ul {
@@ -140,13 +151,45 @@ nav ul {
 }
 
 nav ul li {
-  color: #fff;
   font-size: 1.2rem;
   padding: 1rem 3rem;
+  text-align: center;
 }
 
-nav ul li:hover {
+nav ul li:hover > ul {
   background-color: #bda576;
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav ul li ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+nav ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+nav ul li ul li {
+  clear: both;
+  width: 100%;
 }
 
 body {
