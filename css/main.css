@@ -194,6 +194,25 @@ nav ul > li:hover > a {
   color: #424621;
 }
 
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+main:nth-child(3) {
+  margin-top: 30px;
+}
+
+main section {
+  background-color: #fff;
+  padding: 1rem;
+}
+
 body {
   background-color: #cebb98;
   font-family: 'Cormorant SC', serif;
@@ -204,7 +223,7 @@ body a {
 }
 
 body .header {
-  height: 30vh;
+  height: 25vh;
   background-color: #c8ce98;
   display: -webkit-box;
   display: -ms-flexbox;
