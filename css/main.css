@@ -124,17 +124,6 @@ body#cover img:hover {
 
 nav {
   background-color: #ad8e53;
-  /*.list {
-    display: flex;
-    flex-direction: column;
-    display: none;
-    visibility: hidden;
-    
-    &:hover {
-      display: block;
-      visibility: visible;
-    }
-  }*/
 }
 
 nav ul {
@@ -153,7 +142,7 @@ nav ul {
 nav ul li {
   font-size: 1.2rem;
   padding: 1rem 3rem;
-  text-align: center;
+  position: relative;
 }
 
 nav ul li:hover > ul {
@@ -166,11 +155,14 @@ nav ul li a {
   color: #fff;
 }
 
+nav ul li a:hover {
+  color: #463921;
+}
+
 nav ul li ul {
   background-color: #ad8e53;
   position: absolute;
   margin-top: 1rem;
-  left: 435px;
   visibility: hidden;
   opacity: 0;
   display: none;
@@ -183,16 +175,23 @@ nav ul li ul:hover {
 }
 
 nav ul li ul li {
-  text-align: left;
   font-size: 1.05rem;
-  padding: 1rem;
-  max-width: 190px;
+  padding: 0.5rem 1rem;
+  width: 250px;
   clear: both;
-  width: 100%;
 }
 
 nav ul li ul li:hover {
   background-color: #bda576;
+}
+
+nav ul li ul li:hover a {
+  color: #fff;
+}
+
+/* Keeping li parent element (from main ul list) highlited when hovering over sub-menu li elements */
+nav ul > li:hover > a {
+  color: #424621;
 }
 
 body {

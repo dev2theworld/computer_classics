@@ -10,7 +10,7 @@ nav {
     li {
       font-size: 1.2rem;
       padding: 1rem 3rem;
-      text-align: center;
+      position: relative;
 
       &:hover > ul {
         
@@ -21,13 +21,16 @@ nav {
 
       a {
         color: $white;
+
+        &:hover {
+          color: darken($color: $secondary-color, $amount: 30%);
+        }
       }
 
       ul {
         background-color: $secondary-color;
         position: absolute;
         margin-top: 1rem;
-        left: 435px;
         visibility: hidden;
         opacity: 0;
         display: none;
@@ -39,30 +42,29 @@ nav {
         }
 
         li {
-          text-align: left;
           font-size: 1.05rem;
-          padding: 1rem;
-          max-width: 190px;
+          padding: 0.5rem 1rem;
+          width: 250px;
           clear: both;
-          width: 100%;
 
           &:hover {
             background-color: lighten($color: $secondary-color, $amount: 10%);
+
+            a {
+              color: $white;
+            }
           }
         }
       }
     }
   }
+}
 
-  /*.list {
-    display: flex;
-    flex-direction: column;
-    display: none;
-    visibility: hidden;
-    
-    &:hover {
-      display: block;
-      visibility: visible;
-    }
-  }*/
+
+/* Keeping li parent element (from main ul list) highlited when hovering over sub-menu li elements */
+nav {
+
+  ul > li:hover > a {
+    color: darken($color: $primary-color, $amount: 30%);
+  }
 }
