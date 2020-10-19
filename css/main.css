@@ -157,7 +157,6 @@ nav ul li {
 }
 
 nav ul li:hover > ul {
-  background-color: #bda576;
   visibility: visible;
   opacity: 1;
   display: block;
@@ -168,14 +167,10 @@ nav ul li a {
 }
 
 nav ul li ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
+  background-color: #ad8e53;
+  position: absolute;
+  margin-top: 1rem;
+  left: 435px;
   visibility: hidden;
   opacity: 0;
   display: none;
@@ -188,8 +183,16 @@ nav ul li ul:hover {
 }
 
 nav ul li ul li {
+  text-align: left;
+  font-size: 1.05rem;
+  padding: 1rem;
+  max-width: 190px;
   clear: both;
   width: 100%;
+}
+
+nav ul li ul li:hover {
+  background-color: #bda576;
 }
 
 body {
