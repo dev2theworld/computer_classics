@@ -194,30 +194,6 @@ nav ul > li:hover > a {
   color: #424621;
 }
 
-body {
-  background-color: #a3ad53;
-}
-
-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  max-width: 1200px;
-  margin: auto;
-  padding-bottom: 30px;
-}
-
-main:nth-child(3) {
-  margin-top: 30px;
-}
-
-main section {
-  background-color: #fff;
-  padding: 1rem;
-}
-
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -261,6 +237,14 @@ footer .footer-top .logo h3 {
   margin-top: 1rem;
 }
 
+footer .footer-top .logo h3 span {
+  color: #8b7242;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-style: oblique;
+}
+
 footer .footer-top ul {
   list-style: none;
 }
@@ -291,6 +275,30 @@ footer .footer-top .contact textarea {
 footer .footer-bottom {
   text-align: center;
   padding-top: 1rem;
+}
+
+body {
+  background-color: #a3ad53;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+main:nth-child(3) {
+  margin-top: 30px;
+}
+
+main section {
+  background-color: #fff;
+  padding: 1rem;
 }
 
 body {

@@ -1,0 +1,59 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: $primary-color;
+  padding: 1rem;
+
+  .footer-top {
+    display: flex;
+    justify-content: space-evenly;
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: lighten($color: $primary-color, $amount: 20%);
+      padding: 1rem;
+
+      h3 {
+        margin-top: 1rem;
+
+        span {
+          color: darken($color: $secondary-color, $amount: 10%);
+          font-size: 1.4rem;
+          font-weight: bold;
+          letter-spacing: 1.5px;
+          font-style: oblique;
+        }
+      }
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        padding: 0.25rem;
+      }
+    }
+
+    .contact {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
+      }
+
+      textarea {
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+  }
+}
