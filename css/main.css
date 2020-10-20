@@ -306,7 +306,7 @@ body {
   background-color: #a3ad53;
 }
 
-main {
+.start-wrapper {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -318,11 +318,11 @@ main {
   padding-bottom: 60px;
 }
 
-main:nth-child(3) {
+.start-wrapper:nth-child(3) {
   margin-top: 30px;
 }
 
-main section {
+.start-wrapper section {
   background-color: #fff;
   padding: 1rem;
   display: -webkit-box;
@@ -333,11 +333,11 @@ main section {
   transition: all 1s ease-in;
 }
 
-main section:hover {
+.start-wrapper section:hover {
   border-radius: 30px;
 }
 
-main section .green {
+.start-wrapper section .green {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,35 +350,35 @@ main section .green {
   transition: all 1s ease-in;
 }
 
-main section .green:hover {
+.start-wrapper section .green:hover {
   border-radius: 30px;
 }
 
-main section .green .icon {
+.start-wrapper section .green .icon {
   padding: 1rem;
 }
 
-main section .green .icon i.fas {
+.start-wrapper section .green .icon i.fas {
   color: #685532;
   -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
 }
 
-main section .green .icon i.fas:hover {
+.start-wrapper section .green .icon i.fas:hover {
   color: #000;
 }
 
-main section .green .text {
+.start-wrapper section .green .text {
   padding: 1rem;
   text-align: center;
 }
 
-main section .green .text h1 {
+.start-wrapper section .green .text h1 {
   margin-bottom: 1.5rem;
   font-size: 2rem;
 }
 
-main section .green .text .btn {
+.start-wrapper section .green .text .btn {
   margin-top: 1.5rem;
   padding: 0.5rem 1.5rem;
   border: none;
@@ -386,12 +386,104 @@ main section .green .text .btn {
   transition: all 0.5s ease-in;
 }
 
-main section .green .text .btn:hover {
+.start-wrapper section .green .text .btn:hover {
   cursor: pointer;
   border-radius: 10px;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   color: #8b7242;
+}
+
+.start-wrapper section .green .text .btn a {
+  color: #000;
+  text-decoration: none;
+}
+
+.rpg-wrapper {
+  max-width: 1100px;
+  padding-top: 3rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.rpg-wrapper .game {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 2rem;
+  background-color: #ad8e53;
+  max-width: 1080px;
+  -webkit-box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.75);
+          box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.75);
+}
+
+.rpg-wrapper .game a {
+  padding: 1.2rem 1rem 1rem 1.2rem;
+}
+
+.rpg-wrapper .game img {
+  max-width: 400px;
+  max-height: 520px;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.rpg-wrapper .game img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 7px 0px 0px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 7px 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rpg-wrapper .game-text {
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 50%;
+  border: 2px dotted #000;
+  text-align: center;
+  background-color: #fff;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.rpg-wrapper .game-text:hover {
+  cursor: default;
+  background-color: #d1d6a9;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.rpg-wrapper .game-text h3 {
+  font-size: 2.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.rpg-wrapper .game-text h5 {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.rpg-wrapper .game-text p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.rpg-wrapper .game-text .btn {
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: #a3ad53;
+  padding: 0.5rem;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.rpg-wrapper .game-text .btn:hover {
+  background-color: #ad8e53;
 }
 
 body {
@@ -437,92 +529,5 @@ body .header h1 span {
 body .header p {
   font-size: 1.5rem;
   margin-top: 1rem;
-}
-
-body .wrapper {
-  max-width: 1100px;
-  padding-top: 3rem;
-  margin: auto;
-  overflow: hidden;
-}
-
-body .wrapper .game {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 2rem;
-  background-color: #ad8e53;
-  max-width: 1080px;
-  -webkit-box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.75);
-          box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.75);
-}
-
-body .wrapper .game a {
-  padding: 1.2rem 1rem 1rem 1.2rem;
-}
-
-body .wrapper .game img {
-  max-width: 400px;
-  max-height: 520px;
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-}
-
-body .wrapper .game img:hover {
-  cursor: pointer;
-  opacity: 0.9;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-  -webkit-box-shadow: 7px 0px 0px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 7px 0px 0px 0px rgba(0, 0, 0, 0.25);
-}
-
-body .wrapper .game-text {
-  padding: 2rem;
-  margin: 2rem;
-  border-radius: 50%;
-  border: 2px dotted #000;
-  text-align: center;
-  background-color: #fff;
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-}
-
-body .wrapper .game-text:hover {
-  cursor: default;
-  background-color: #d1d6a9;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-}
-
-body .wrapper .game-text h3 {
-  font-size: 2.2rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-body .wrapper .game-text h5 {
-  font-size: 1.2rem;
-  padding-bottom: 2rem;
-}
-
-body .wrapper .game-text p {
-  font-size: 1.4rem;
-  margin-bottom: 2rem;
-}
-
-body .wrapper .game-text .btn {
-  color: #fff;
-  font-size: 1.2rem;
-  background-color: #a3ad53;
-  padding: 0.5rem;
-  border-radius: 10px;
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-}
-
-body .wrapper .game-text .btn:hover {
-  background-color: #ad8e53;
 }
 /*# sourceMappingURL=main.css.map */
