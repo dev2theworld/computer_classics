@@ -314,7 +314,8 @@ main {
   gap: 30px;
   max-width: 1200px;
   margin: auto;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 main:nth-child(3) {
@@ -328,6 +329,12 @@ main section {
   display: -ms-flexbox;
   display: flex;
   height: 40vh;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+main section:hover {
+  border-radius: 30px;
 }
 
 main section .green {
@@ -339,10 +346,26 @@ main section .green {
           align-items: center;
   padding: 0 1rem;
   background-color: #c8ce98;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+main section .green:hover {
+  border-radius: 30px;
 }
 
 main section .green .icon {
   padding: 1rem;
+}
+
+main section .green .icon i.fas {
+  color: #685532;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+main section .green .icon i.fas:hover {
+  color: #000;
 }
 
 main section .green .text {
@@ -369,16 +392,6 @@ main section .green .text .btn:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   color: #8b7242;
-}
-
-main section .icon {
-  padding: 1rem;
-  background-color: #c8ce98;
-}
-
-main section .text {
-  padding: 1rem;
-  background-color: #c8ce98;
 }
 
 body {
