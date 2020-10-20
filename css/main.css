@@ -324,6 +324,61 @@ main:nth-child(3) {
 main section {
   background-color: #fff;
   padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+}
+
+main section .green {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+  background-color: #c8ce98;
+}
+
+main section .green .icon {
+  padding: 1rem;
+}
+
+main section .green .text {
+  padding: 1rem;
+  text-align: center;
+}
+
+main section .green .text h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+main section .green .text .btn {
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+main section .green .text .btn:hover {
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: #8b7242;
+}
+
+main section .icon {
+  padding: 1rem;
+  background-color: #c8ce98;
+}
+
+main section .text {
+  padding: 1rem;
+  background-color: #c8ce98;
 }
 
 body {
