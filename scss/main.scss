@@ -6,6 +6,7 @@
 @import 'start';
 @import 'rpg-guild';
 @import 'header';
+@import 'strategy-corner';
 
 body {
   background-color: lighten($color: $secondary-color, $amount: 20%);

@@ -552,6 +552,38 @@ body {
   font-size: 2.5rem;
 }
 
+.strategy-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  max-width: 1100px;
+  margin: auto;
+}
+
+.strategy-wrapper section:nth-of-type(2),
+.strategy-wrapper section:nth-of-type(3),
+.strategy-wrapper section:nth-of-type(6),
+.strategy-wrapper section:nth-of-type(7),
+.strategy-wrapper section:nth-of-type(10),
+.strategy-wrapper section:nth-of-type(11),
+.strategy-wrapper section:nth-of-type(14),
+.strategy-wrapper section:nth-of-type(15),
+.strategy-wrapper section:nth-of-type(18),
+.strategy-wrapper section:nth-of-type(19) {
+  background-color: #fff;
+}
+
+.strategy-wrapper section:nth-of-type(19) {
+  margin-bottom: 2rem;
+}
+
+.strategy-wrapper .game {
+  background-color: #bda576;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
 body {
   background-color: #cebb98;
   font-family: 'Cormorant SC', serif;
