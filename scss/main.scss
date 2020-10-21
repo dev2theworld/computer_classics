@@ -5,6 +5,7 @@
 @import 'footer';
 @import 'start';
 @import 'rpg-guild';
+@import 'header';
 
 body {
   background-color: lighten($color: $secondary-color, $amount: 20%);
@@ -12,32 +13,5 @@ body {
  
   a {
     text-decoration: none;
-  }
-
-  .header {
-    height: 25vh;
-    background-color: lighten($color: $primary-color, $amount: 20%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    h1 {
-      font-size: 3.5rem;
-
-      span {
-        color: darken($color: $secondary-color, $amount: 10%);
-        font-size: 4rem;
-        font-weight: bold;
-        letter-spacing: 1.5px;
-        font-style: oblique;
-      }
-    }
-
-    p {
-      font-size: 1.5rem;
-      margin-top: 1rem;
-    }
   }
 }

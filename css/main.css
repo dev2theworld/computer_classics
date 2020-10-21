@@ -486,16 +486,7 @@ body {
   background-color: #ad8e53;
 }
 
-body {
-  background-color: #cebb98;
-  font-family: 'Cormorant SC', serif;
-}
-
-body a {
-  text-decoration: none;
-}
-
-body .header {
+.header {
   height: 25vh;
   background-color: #c8ce98;
   display: -webkit-box;
@@ -514,11 +505,11 @@ body .header {
   text-align: center;
 }
 
-body .header h1 {
+.header h1 {
   font-size: 3.5rem;
 }
 
-body .header h1 span {
+.header h1 span {
   color: #8b7242;
   font-size: 4rem;
   font-weight: bold;
@@ -526,8 +517,43 @@ body .header h1 span {
   font-style: oblique;
 }
 
-body .header p {
+.header p {
   font-size: 1.5rem;
   margin-top: 1rem;
+}
+
+.header-subpages {
+  height: 35vh;
+}
+
+.header-subpages .pagetitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.header-subpages .pagetitle i.fas {
+  color: #8b7242;
+}
+
+.header-subpages .pagetitle h2 {
+  margin-left: 1rem;
+  font-size: 2.5rem;
+}
+
+body {
+  background-color: #cebb98;
+  font-family: 'Cormorant SC', serif;
+}
+
+body a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
