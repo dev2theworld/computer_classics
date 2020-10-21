@@ -151,6 +151,12 @@ nav ul li:hover > ul {
   display: block;
 }
 
+nav ul li:hover > ul#strategy {
+  height: 83vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
 nav ul li a {
   color: #fff;
 }

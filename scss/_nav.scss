@@ -19,6 +19,13 @@ nav {
         display: block;
       }
 
+      &:hover > ul#strategy {
+        
+        height: 83vh;
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+
       a {
         color: $white;
 
