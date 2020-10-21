@@ -571,7 +571,23 @@ body {
 .strategy-wrapper section:nth-of-type(15),
 .strategy-wrapper section:nth-of-type(18),
 .strategy-wrapper section:nth-of-type(19) {
-  background-color: #fff;
+  background-color: #c8ce98;
+}
+
+.strategy-wrapper section:nth-of-type(2) .btn,
+.strategy-wrapper section:nth-of-type(3) .btn,
+.strategy-wrapper section:nth-of-type(6) .btn,
+.strategy-wrapper section:nth-of-type(7) .btn,
+.strategy-wrapper section:nth-of-type(10) .btn,
+.strategy-wrapper section:nth-of-type(11) .btn,
+.strategy-wrapper section:nth-of-type(14) .btn,
+.strategy-wrapper section:nth-of-type(15) .btn,
+.strategy-wrapper section:nth-of-type(18) .btn,
+.strategy-wrapper section:nth-of-type(19) .btn {
+  color: #fff;
+  background-color: #a3ad53;
+  padding: 0.25rem 0.5rem;
+  border-radius: 10px;
 }
 
 .strategy-wrapper section:nth-of-type(19) {
@@ -582,6 +598,25 @@ body {
   background-color: #bda576;
   padding: 2rem;
   margin-top: 2rem;
+}
+
+.strategy-wrapper .game-text h3 {
+  margin: 0.5rem 0 0.25rem;
+}
+
+.strategy-wrapper .game-text h5 {
+  margin-bottom: 0.5rem;
+}
+
+.strategy-wrapper .game-text p {
+  margin-bottom: 0.75rem;
+}
+
+.strategy-wrapper .game-text .btn {
+  color: #fff;
+  background-color: #ad8e53;
+  padding: 0.25rem 0.5rem;
+  border-radius: 10px;
 }
 
 body {
