@@ -507,6 +507,7 @@ body {
 
 .header h1 {
   font-size: 3.5rem;
+  margin-top: 2rem;
 }
 
 .header h1 span {
@@ -536,7 +537,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  background-color: #b5bd76;
+  width: 100%;
+  padding: 1rem 0;
 }
 
 .header-subpages .pagetitle i.fas {

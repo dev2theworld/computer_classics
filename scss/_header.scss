@@ -9,6 +9,7 @@
 
   h1 {
     font-size: 3.5rem;
+    margin-top: 2rem;
 
     span {
       color: darken($color: $secondary-color, $amount: 10%);
@@ -31,8 +32,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 1rem;
-      
+      margin-top: 2rem;
+      background-color: lighten($color: $primary-color, $amount: 10%);
+      width: 100%;
+      padding: 1rem 0;
 
       i.fas {
         color: darken($color: $secondary-color, $amount: 10%);
