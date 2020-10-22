@@ -625,6 +625,38 @@ body {
   border-radius: 10px;
 }
 
+.madness-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  max-width: 1050px;
+  margin: auto;
+}
+
+.madness-wrapper .game {
+  max-width: 360px;
+  background-image: url(../img/acranum.jpg);
+  height: 480px;
+  background-size: cover;
+}
+
+.madness-wrapper .game img {
+  max-width: 350px;
+}
+
+.madness-wrapper .game-text {
+  opacity: 0;
+  height: 480px;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+.madness-wrapper .game-text:hover {
+  opacity: 1;
+  background-color: #fff;
+}
+
 body {
   background-color: #cebb98;
   font-family: 'Cormorant SC', serif;
