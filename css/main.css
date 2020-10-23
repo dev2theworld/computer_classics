@@ -646,9 +646,44 @@ body {
   margin-bottom: 4rem;
 }
 
+.madness-wrapper #adventure {
+  background-image: url(../img/madness/adventure.jpg);
+}
+
+.madness-wrapper #alladin {
+  background-image: url(../img/madness/alladin.jpg);
+}
+
+.madness-wrapper #bomberman {
+  background-image: url(../img/madness/bomberman.jpg);
+}
+
+.madness-wrapper #contra {
+  background-image: url(../img/madness/contra.jpg);
+}
+
+.madness-wrapper #donkey-kong {
+  background-image: url(../img/madness/donkey-kong.jpg);
+}
+
+.madness-wrapper #galaga {
+  background-image: url(../img/madness/galaga.jpg);
+}
+
+.madness-wrapper #kung-fu {
+  background-image: url(../img/madness/kung-fuu.jpg);
+}
+
+.madness-wrapper #lion {
+  background-image: url(../img/madness/lion.jpg);
+}
+
+.madness-wrapper #mario {
+  background-image: url(../img/madness/mario.jpg);
+}
+
 .madness-wrapper .game {
   max-width: 360px;
-  background-image: url(../img/acranum.jpg);
   height: 480px;
   background-size: cover;
 }

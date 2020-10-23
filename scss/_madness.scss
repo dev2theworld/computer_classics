@@ -15,12 +15,48 @@
   section:nth-of-type(9) {
     margin-bottom: 4rem;
   }
+
+  #adventure {
+    background-image: url(../img/madness/adventure.jpg);
+  }
+
+  #alladin {
+    background-image: url(../img/madness/alladin.jpg);
+  }
+
+  #bomberman {
+    background-image: url(../img/madness/bomberman.jpg);
+  }
+
+  #contra {
+    background-image: url(../img/madness/contra.jpg);
+  }
+
+  #donkey-kong {
+    background-image: url(../img/madness/donkey-kong.jpg);
+  }
+
+  #galaga {
+    background-image: url(../img/madness/galaga.jpg);
+  }
+
+  #kung-fu {
+    background-image: url(../img/madness/kung-fuu.jpg);
+  }
+
+  #lion {
+    background-image: url(../img/madness/lion.jpg);
+  }
+
+  #mario {
+    background-image: url(../img/madness/mario.jpg);
+  }
   
   .game {
     max-width: 360px;
-    background-image: url(../img/acranum.jpg);
     height: 480px;
     background-size: cover;
+
     // each box = seperate id => placing imgs by ids for each
 
     img {
