@@ -9,6 +9,21 @@
 @import 'strategy-corner';
 @import 'madness';
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+#header-madness {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+}
+
+#header-rpg {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+}
+
 body {
   background-color: lighten($color: $secondary-color, $amount: 20%);
   font-family: 'Cormorant SC', serif;
