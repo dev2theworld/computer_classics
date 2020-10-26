@@ -637,12 +637,12 @@ body {
 .madness-wrapper section:nth-of-type(1),
 .madness-wrapper section:nth-of-type(2),
 .madness-wrapper section:nth-of-type(3) {
-  margin-top: 20rem;
+  margin-top: 4rem;
 }
 
-.madness-wrapper section:nth-of-type(7),
-.madness-wrapper section:nth-of-type(8),
-.madness-wrapper section:nth-of-type(9) {
+.madness-wrapper section:nth-of-type(16),
+.madness-wrapper section:nth-of-type(17),
+.madness-wrapper section:nth-of-type(18) {
   margin-bottom: 4rem;
 }
 
@@ -680,6 +680,42 @@ body {
 
 .madness-wrapper #mario {
   background-image: url(../img/madness/mario.jpg);
+}
+
+.madness-wrapper #mortal {
+  background-image: url(../img/madness/mortal-kombat.jpg);
+}
+
+.madness-wrapper #ninja {
+  background-image: url(../img/madness/ninja.jpg);
+}
+
+.madness-wrapper #pacman {
+  background-image: url(../img/madness/pacman.jpg);
+}
+
+.madness-wrapper #road {
+  background-image: url(../img/madness/road-fighter.jpg);
+}
+
+.madness-wrapper #sonic {
+  background-image: url(../img/madness/sonic.jpg);
+}
+
+.madness-wrapper #street {
+  background-image: url(../img/madness/street-fighter.jpg);
+}
+
+.madness-wrapper #tetris {
+  background-image: url(../img/madness/tetris.jpg);
+}
+
+.madness-wrapper #turtles {
+  background-image: url(../img/madness/turtles.jpg);
+}
+
+.madness-wrapper #zelda {
+  background-image: url(../img/madness/zelda.jpg);
 }
 
 .madness-wrapper .game {

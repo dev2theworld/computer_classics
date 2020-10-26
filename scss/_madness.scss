@@ -7,12 +7,12 @@
   section:nth-of-type(1),
   section:nth-of-type(2),
   section:nth-of-type(3) {
-    margin-top: 20rem;
+    margin-top: 4rem;
   }
 
-  section:nth-of-type(7),
-  section:nth-of-type(8),
-  section:nth-of-type(9) {
+  section:nth-of-type(16),
+  section:nth-of-type(17),
+  section:nth-of-type(18) {
     margin-bottom: 4rem;
   }
 
@@ -51,13 +51,47 @@
   #mario {
     background-image: url(../img/madness/mario.jpg);
   }
+
+  #mortal {
+    background-image: url(../img/madness/mortal-kombat.jpg);
+  }
+
+  #ninja {
+    background-image: url(../img/madness/ninja.jpg);
+  }
+
+  #pacman {
+    background-image: url(../img/madness/pacman.jpg);
+  }
+
+  #road {
+    background-image: url(../img/madness/road-fighter.jpg);
+  }
+
+  #sonic {
+    background-image: url(../img/madness/sonic.jpg);
+  }
+
+  #street {
+    background-image: url(../img/madness/street-fighter.jpg);
+  }
+
+  #tetris {
+    background-image: url(../img/madness/tetris.jpg);
+  }
+
+  #turtles {
+    background-image: url(../img/madness/turtles.jpg);
+  }
+
+  #zelda {
+    background-image: url(../img/madness/zelda.jpg);
+  }
   
   .game {
     max-width: 360px;
     height: 480px;
     background-size: cover;
-
-    // each box = seperate id => placing imgs by ids for each
 
     img {
       max-width: 350px;
