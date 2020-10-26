@@ -105,12 +105,13 @@
       padding: 0 1rem;
       height: 480px;
       opacity: 0;
-      transition: all 1s ease-in;
+      transition: all 0.4s ease-in;
 
       &:hover {
-        opacity: 0.75;
+        opacity: 0.9;
         background-color: $white;
         cursor: pointer;
+        border: 5px solid $secondary-color;
       }
 
       h3 {
@@ -119,11 +120,22 @@
       }
 
       h5 {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
 
       p {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .btn {
+        background-color: $secondary-color;
+        color: $white;
+        padding: 0.5rem 1.5rem;
+
+        &:hover {
+          background: darken($color: $secondary-color, $amount: 10%);
+          font-weight: bold;
+        }
       }
     }
   }
