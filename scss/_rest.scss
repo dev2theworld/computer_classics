@@ -1,44 +1,50 @@
 .rest-wrapper {
   display: flex;
-  justify-content: center;
-
-  .left {
-    
-    .game-text {
-      margin-left: -360px;
-    }
-
-    &:hover > .game-text {
-      margin-left: 0;
-      opacity: 1;
-    }
-  }
-
-  .right {
-
-    .game-text {
-      margin-right: -360px;
-    }
-    
-
-    &:hover > .game-text {
-      margin-right: 0;
-      opacity: 1;
-    }
-  }
-
-  .game {
+  flex-direction: column;
+  margin: 4rem 0;
+  
+  .section-wrapper {
     display: flex;
-    
-    img {
-      max-width: 360px;
-      height: 480px;
-    }
+    justify-content: center;
 
-    &-text {
-      width: 360px;
-      transition: all 0.75s ease-in;
-      opacity: 0;
+    .left {
+    
+      .game-text {
+        margin-left: -360px;
+      }
+  
+      &:hover > .game-text {
+        margin-left: 0;
+        opacity: 1;
+      }
     }
-  }
+  
+    .right {
+      
+      .game-text {
+        margin-right: -360px;
+      }
+      
+  
+      &:hover > .game-text {
+        margin-right: 0;
+        opacity: 1;
+      }
+    }
+  
+    .game {
+      display: flex;
+      
+      img {
+        max-width: 360px;
+        height: 480px;
+      }
+  
+      &-text {
+        width: 360px;
+        transition: all 0.75s ease-in;
+        opacity: 0;
+      }
+    }
+  } 
 }

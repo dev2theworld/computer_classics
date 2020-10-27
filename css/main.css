@@ -794,41 +794,52 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 4rem 0;
+}
+
+.rest-wrapper .section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.rest-wrapper .left .game-text {
+.rest-wrapper .section-wrapper .left .game-text {
   margin-left: -360px;
 }
 
-.rest-wrapper .left:hover > .game-text {
+.rest-wrapper .section-wrapper .left:hover > .game-text {
   margin-left: 0;
   opacity: 1;
 }
 
-.rest-wrapper .right .game-text {
+.rest-wrapper .section-wrapper .right .game-text {
   margin-right: -360px;
 }
 
-.rest-wrapper .right:hover > .game-text {
+.rest-wrapper .section-wrapper .right:hover > .game-text {
   margin-right: 0;
   opacity: 1;
 }
 
-.rest-wrapper .game {
+.rest-wrapper .section-wrapper .game {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.rest-wrapper .game img {
+.rest-wrapper .section-wrapper .game img {
   max-width: 360px;
   height: 480px;
 }
 
-.rest-wrapper .game-text {
+.rest-wrapper .section-wrapper .game-text {
   width: 360px;
   -webkit-transition: all 0.75s ease-in;
   transition: all 0.75s ease-in;
