@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -797,6 +797,10 @@ body {
   font-family: 'MedievalSharp', cursive;
   font-size: 3rem;
   letter-spacing: 1.5px;
+}
+
+#header-strategy {
+  font-family: 'Monoton', cursive;
 }
 
 body {
