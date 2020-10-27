@@ -152,6 +152,7 @@ nav ul li:hover > ul {
   visibility: visible;
   opacity: 1;
   display: block;
+  z-index: 5;
 }
 
 nav ul li:hover > ul#strategy {
@@ -653,7 +654,7 @@ body {
   background-image: url(../img/madness/adventure.jpg);
 }
 
-.madness-wrapper #alladin {
+.madness-wrapper #aladdin {
   background-image: url(../img/madness/alladin.jpg);
 }
 

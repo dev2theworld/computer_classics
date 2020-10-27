@@ -17,6 +17,7 @@ nav {
         visibility: visible;
         opacity: 1;
         display: block;
+        z-index: 5;
       }
 
       &:hover > ul#strategy {
