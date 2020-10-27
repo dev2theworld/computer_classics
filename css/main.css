@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -792,6 +793,10 @@ body {
 #header-madness {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
+}
+
+#header-rest {
+  font-family: 'Fascinate Inline', cursive;
 }
 
 #header-rpg {
