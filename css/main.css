@@ -790,6 +790,51 @@ body {
   font-weight: bold;
 }
 
+.rest-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rest-wrapper .left .game-text {
+  margin-left: -360px;
+}
+
+.rest-wrapper .left:hover > .game-text {
+  margin-left: 0;
+  opacity: 1;
+}
+
+.rest-wrapper .right .game-text {
+  margin-right: -360px;
+}
+
+.rest-wrapper .right:hover > .game-text {
+  margin-right: 0;
+  opacity: 1;
+}
+
+.rest-wrapper .game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rest-wrapper .game img {
+  max-width: 360px;
+  height: 480px;
+}
+
+.rest-wrapper .game-text {
+  width: 360px;
+  -webkit-transition: all 0.75s ease-in;
+  transition: all 0.75s ease-in;
+  opacity: 0;
+}
+
 #header-madness {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
