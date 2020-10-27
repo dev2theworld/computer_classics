@@ -812,6 +812,7 @@ body {
 
 .rest-wrapper .section-wrapper .left .game-text {
   margin-left: -360px;
+  border: 5px solid #a3ad53;
 }
 
 .rest-wrapper .section-wrapper .left:hover > .game-text {
@@ -819,13 +820,30 @@ body {
   opacity: 1;
 }
 
+.rest-wrapper .section-wrapper .left h5 {
+  border-bottom: 1px dotted #a3ad53;
+}
+
+.rest-wrapper .section-wrapper .left .btn {
+  background-color: #a3ad53;
+}
+
 .rest-wrapper .section-wrapper .right .game-text {
   margin-right: -360px;
+  border: 5px solid #ad8e53;
 }
 
 .rest-wrapper .section-wrapper .right:hover > .game-text {
   margin-right: 0;
   opacity: 1;
+}
+
+.rest-wrapper .section-wrapper .right h5 {
+  border-bottom: 1px dotted #ad8e53;
+}
+
+.rest-wrapper .section-wrapper .right .btn {
+  background-color: #ad8e53;
 }
 
 .rest-wrapper .section-wrapper .game {
@@ -841,9 +859,36 @@ body {
 
 .rest-wrapper .section-wrapper .game-text {
   width: 360px;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  text-align: center;
   -webkit-transition: all 0.75s ease-in;
   transition: all 0.75s ease-in;
   opacity: 0;
+}
+
+.rest-wrapper .section-wrapper .game-text h3 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.rest-wrapper .section-wrapper .game-text h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.rest-wrapper .section-wrapper .game-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.rest-wrapper .section-wrapper .game-text .btn {
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+
+.rest-wrapper .section-wrapper .game-text .btn:hover {
+  opacity: 0.8;
 }
 
 #header-madness {
