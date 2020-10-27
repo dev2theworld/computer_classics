@@ -156,7 +156,8 @@ nav ul li:hover > ul {
   z-index: 5;
 }
 
-nav ul li:hover > ul#strategy {
+nav ul li:hover > ul#strategy,
+nav ul li:hover > ul#rest {
   height: 83vh;
   overflow: hidden;
   overflow-y: scroll;

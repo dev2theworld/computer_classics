@@ -20,7 +20,8 @@ nav {
         z-index: 5;
       }
 
-      &:hover > ul#strategy {
+      &:hover > ul#strategy,
+      &:hover > ul#rest {
         
         height: 83vh;
         overflow: hidden;
