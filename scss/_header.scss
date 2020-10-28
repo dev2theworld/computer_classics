@@ -1,5 +1,5 @@
 .header {
-  height: 25vh;
+  height: 95vh;
   background-color: lighten($color: $primary-color, $amount: 20%);
   display: flex;
   flex-direction: column;
@@ -8,20 +8,25 @@
   text-align: center;
 
   h1 {
-    font-size: 3.5rem;
-    margin-top: 2rem;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 
     span {
       color: darken($color: $secondary-color, $amount: 10%);
-      font-size: 4rem;
+      font-size: 4.5rem;
       font-weight: bold;
       letter-spacing: 1.5px;
       font-style: oblique;
     }
   }
 
+  i.fab {
+    margin-bottom: 2rem;
+  }
+
   p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top: 1rem;
   }
 
