@@ -15,15 +15,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
 
-#header-madness {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 2rem;
-}
-
-#header-rest {
-  font-family: 'Fascinate Inline', cursive;
-}
-
 #header-rpg {
   font-family: 'MedievalSharp', cursive;
   font-size: 3rem;
@@ -32,6 +23,16 @@
 
 #header-strategy {
   font-family: 'Monoton', cursive;
+  margin-top: -0.5rem;
+}
+
+#header-madness {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.6rem;
+}
+
+#header-rest {
+  font-family: 'Fascinate Inline', cursive;
 }
 
 body {

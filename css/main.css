@@ -135,27 +135,55 @@ nav ul > li:hover > a {
   height: 35vh;
 }
 
-.header-subpages .pagetitle {
+.subheader {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 2rem;
   background-color: #b5bd76;
   width: 100%;
-  padding: 1rem 0;
+  height: 20vh;
 }
 
-.header-subpages .pagetitle i.fas {
+.subheader h1 {
+  font-size: 1.6rem;
+}
+
+.subheader h1 span {
+  color: #8b7242;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-style: oblique;
+}
+
+.subheader .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.subheader .logo i.fas {
   color: #8b7242;
 }
 
-.header-subpages .pagetitle h2 {
+.subheader .logo h2 {
   margin-left: 1rem;
   font-size: 2.5rem;
 }
@@ -920,15 +948,6 @@ body#cover img:hover {
   font-size: 1.3rem;
 }
 
-#header-madness {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 2rem;
-}
-
-#header-rest {
-  font-family: 'Fascinate Inline', cursive;
-}
-
 #header-rpg {
   font-family: 'MedievalSharp', cursive;
   font-size: 3rem;
@@ -937,6 +956,16 @@ body#cover img:hover {
 
 #header-strategy {
   font-family: 'Monoton', cursive;
+  margin-top: -0.5rem;
+}
+
+#header-madness {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.6rem;
+}
+
+#header-rest {
+  font-family: 'Fascinate Inline', cursive;
 }
 
 body {
