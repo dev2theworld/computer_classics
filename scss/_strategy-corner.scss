@@ -12,8 +12,7 @@
   section:nth-of-type(11),
   section:nth-of-type(14),
   section:nth-of-type(15),
-  section:nth-of-type(18),
-  section:nth-of-type(19) {
+  section:nth-of-type(18) {
     background-color: lighten($color: $primary-color, $amount: 20%);
 
     .btn {
@@ -24,7 +23,8 @@
     }
   }
 
-  section:nth-of-type(19) {
+  section:nth-of-type(17),
+  section:nth-of-type(18) {
     margin-bottom: 2rem;
   }
 

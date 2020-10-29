@@ -524,8 +524,7 @@ main .about-wrapper section .green .text .btn a {
 .strategy-wrapper section:nth-of-type(11),
 .strategy-wrapper section:nth-of-type(14),
 .strategy-wrapper section:nth-of-type(15),
-.strategy-wrapper section:nth-of-type(18),
-.strategy-wrapper section:nth-of-type(19) {
+.strategy-wrapper section:nth-of-type(18) {
   background-color: #c8ce98;
 }
 
@@ -537,15 +536,15 @@ main .about-wrapper section .green .text .btn a {
 .strategy-wrapper section:nth-of-type(11) .btn,
 .strategy-wrapper section:nth-of-type(14) .btn,
 .strategy-wrapper section:nth-of-type(15) .btn,
-.strategy-wrapper section:nth-of-type(18) .btn,
-.strategy-wrapper section:nth-of-type(19) .btn {
+.strategy-wrapper section:nth-of-type(18) .btn {
   color: #fff;
   background-color: #a3ad53;
   padding: 0.25rem 0.5rem;
   border-radius: 10px;
 }
 
-.strategy-wrapper section:nth-of-type(19) {
+.strategy-wrapper section:nth-of-type(17),
+.strategy-wrapper section:nth-of-type(18) {
   margin-bottom: 2rem;
 }
 
