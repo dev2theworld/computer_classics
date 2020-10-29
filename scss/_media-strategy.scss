@@ -1,0 +1,74 @@
+@media (max-width: 576px) {
+  .subheader {
+
+    .logo {
+
+      h2 {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  .strategy-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+    section:nth-of-type(2),
+    section:nth-of-type(4),
+    section:nth-of-type(6),
+    section:nth-of-type(8),
+    section:nth-of-type(10),
+    section:nth-of-type(12),
+    section:nth-of-type(14),
+    section:nth-of-type(16),
+    section:nth-of-type(18) {
+      background-color: lighten($color: $primary-color, $amount: 20%);
+
+    .btn {
+      color: $white;
+      background-color: $primary-color;
+      padding: 0.25rem 0.5rem;
+      border-radius: 10px;
+      }
+    }
+
+    section:nth-of-type(1),
+    section:nth-of-type(3),
+    section:nth-of-type(5),
+    section:nth-of-type(7),
+    section:nth-of-type(9),
+    section:nth-of-type(11),
+    section:nth-of-type(13),
+    section:nth-of-type(15),
+    section:nth-of-type(17) {
+      background-color: lighten($color: $secondary-color, $amount: 20%);
+
+    .btn {
+      color: $white;
+      background-color: $secondary-color;
+      padding: 0.25rem 0.5rem;
+      border-radius: 10px;
+      }
+    }
+    
+    section:nth-of-type(17),
+    section:nth-of-type(18) {
+      margin: 0;
+    }
+
+    .game {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+
+      img {
+        width: 400px;
+      }
+    }
+  }
+}
