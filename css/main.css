@@ -188,7 +188,7 @@ nav ul > li:hover > a {
   font-size: 2.5rem;
 }
 
-footer {
+.footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -200,7 +200,7 @@ footer {
   padding-top: 2rem;
 }
 
-footer .footer-top {
+.footer-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,7 +213,7 @@ footer .footer-top {
   padding-bottom: 2rem;
 }
 
-footer .footer-top .logo {
+.footer-top .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,11 +234,11 @@ footer .footer-top .logo {
   margin-right: 50px;
 }
 
-footer .footer-top .logo h3 {
+.footer-top .logo h3 {
   margin-top: 1rem;
 }
 
-footer .footer-top .logo h3 span {
+.footer-top .logo h3 span {
   color: #8b7242;
   font-size: 1.4rem;
   font-weight: bold;
@@ -246,23 +246,23 @@ footer .footer-top .logo h3 span {
   font-style: oblique;
 }
 
-footer .footer-top ul {
+.footer-top ul {
   list-style: none;
   margin-right: 300px;
 }
 
-footer .footer-top ul li {
+.footer-top ul li {
   padding: 0.25rem;
   font-size: 1.2rem;
 }
 
-footer .footer-top ul li:hover {
+.footer-top ul li:hover {
   cursor: pointer;
   color: #8b7242;
   font-weight: bold;
 }
 
-footer .footer-top .contact {
+.footer-top .contact-us {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -272,26 +272,26 @@ footer .footer-top .contact {
           flex-direction: column;
 }
 
-footer .footer-top .contact h3 {
+.footer-top .contact-us h3 {
   margin-bottom: 0.5rem;
 }
 
-footer .footer-top .contact input {
+.footer-top .contact-us input {
   margin-bottom: 0.5rem;
   padding: 0.5rem;
 }
 
-footer .footer-top .contact textarea {
+.footer-top .contact-us textarea {
   padding: 0.5rem;
 }
 
-footer .footer-bottom {
+.footer .footer-bottom {
   text-align: center;
   padding: 1rem;
   background-color: #ad8e53;
 }
 
-footer .footer-bottom p {
+.footer .footer-bottom p {
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -901,6 +901,30 @@ main .about-wrapper section .green .text .btn a {
 .contact-form-bottom .socials a:hover {
   cursor: pointer;
   color: #bda576;
+}
+
+#contact {
+  padding: 0;
+}
+
+#contact .footer-top {
+  padding: 0;
+}
+
+#contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+  padding: 2rem 0;
 }
 
 .rest-wrapper {

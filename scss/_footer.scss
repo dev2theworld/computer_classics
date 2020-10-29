@@ -1,10 +1,10 @@
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   background-color: $primary-color;
   padding-top: 2rem;
 
-  .footer-top {
+  &-top {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ footer {
       }
     }
 
-    .contact {
+    .contact-us {
       display: flex;
       flex-direction: column;
 

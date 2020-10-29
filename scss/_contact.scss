@@ -116,3 +116,21 @@
     }
   }
 }
+
+#contact {
+  padding: 0;
+
+  .footer-top {
+    padding: 0;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    padding: 2rem 0;
+  }
+}
