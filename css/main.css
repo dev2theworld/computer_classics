@@ -256,7 +256,11 @@ nav ul > li:hover > a {
   font-size: 1.2rem;
 }
 
-.footer-top ul li:hover {
+.footer-top ul li a {
+  color: #000;
+}
+
+.footer-top ul li a:hover {
   cursor: pointer;
   color: #8b7242;
   font-weight: bold;
@@ -905,26 +909,6 @@ main .about-wrapper section .green .text .btn a {
 
 #contact {
   padding: 0;
-}
-
-#contact .footer-top {
-  padding: 0;
-}
-
-#contact ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 5vh;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  width: 100%;
-  margin: auto;
-  padding: 2rem 0;
 }
 
 .rest-wrapper {
