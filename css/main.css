@@ -734,6 +734,107 @@ main .about-wrapper section .green .text .btn a {
   font-weight: bold;
 }
 
+.rest-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 4rem 0;
+}
+
+.rest-wrapper .section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rest-wrapper .section-wrapper .left .game-text {
+  margin-left: -360px;
+  border: 5px solid #a3ad53;
+}
+
+.rest-wrapper .section-wrapper .left:hover > .game-text {
+  margin-left: 0;
+  opacity: 1;
+}
+
+.rest-wrapper .section-wrapper .left h5 {
+  border-bottom: 1px dotted #a3ad53;
+}
+
+.rest-wrapper .section-wrapper .left .btn {
+  background-color: #a3ad53;
+}
+
+.rest-wrapper .section-wrapper .right .game-text {
+  margin-right: -360px;
+  border: 5px solid #ad8e53;
+}
+
+.rest-wrapper .section-wrapper .right:hover > .game-text {
+  margin-right: 0;
+  opacity: 1;
+}
+
+.rest-wrapper .section-wrapper .right h5 {
+  border-bottom: 1px dotted #ad8e53;
+}
+
+.rest-wrapper .section-wrapper .right .btn {
+  background-color: #ad8e53;
+}
+
+.rest-wrapper .section-wrapper .game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rest-wrapper .section-wrapper .game img {
+  max-width: 360px;
+  height: 480px;
+}
+
+.rest-wrapper .section-wrapper .game-text {
+  width: 360px;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  text-align: center;
+  -webkit-transition: all 0.75s ease-in;
+  transition: all 0.75s ease-in;
+  opacity: 0;
+}
+
+.rest-wrapper .section-wrapper .game-text h3 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.rest-wrapper .section-wrapper .game-text h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.rest-wrapper .section-wrapper .game-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.rest-wrapper .section-wrapper .game-text .btn {
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+
+.rest-wrapper .section-wrapper .game-text .btn:hover {
+  opacity: 0.8;
+}
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -911,105 +1012,95 @@ main .about-wrapper section .green .text .btn a {
   padding: 0;
 }
 
-.rest-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 4rem 0;
+@media (max-width: 576px) {
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav ul li:hover > ul {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+  main header {
+    padding: 1rem;
+  }
+  main .about-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+    gap: 0;
+    padding: 0;
+  }
+  main .about-wrapper section {
+    height: auto;
+  }
+  main .about-wrapper section .green {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .about-wrapper section .green .icon i.fas {
+    font-size: 4rem;
+  }
+  .footer-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-top .logo {
+    margin: 0;
+  }
+  .footer-top ul {
+    margin: 0;
+    padding: 2rem 1rem;
+  }
 }
 
-.rest-wrapper .section-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.rest-wrapper .section-wrapper .left .game-text {
-  margin-left: -360px;
-  border: 5px solid #a3ad53;
-}
-
-.rest-wrapper .section-wrapper .left:hover > .game-text {
-  margin-left: 0;
-  opacity: 1;
-}
-
-.rest-wrapper .section-wrapper .left h5 {
-  border-bottom: 1px dotted #a3ad53;
-}
-
-.rest-wrapper .section-wrapper .left .btn {
-  background-color: #a3ad53;
-}
-
-.rest-wrapper .section-wrapper .right .game-text {
-  margin-right: -360px;
-  border: 5px solid #ad8e53;
-}
-
-.rest-wrapper .section-wrapper .right:hover > .game-text {
-  margin-right: 0;
-  opacity: 1;
-}
-
-.rest-wrapper .section-wrapper .right h5 {
-  border-bottom: 1px dotted #ad8e53;
-}
-
-.rest-wrapper .section-wrapper .right .btn {
-  background-color: #ad8e53;
-}
-
-.rest-wrapper .section-wrapper .game {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.rest-wrapper .section-wrapper .game img {
-  max-width: 360px;
-  height: 480px;
-}
-
-.rest-wrapper .section-wrapper .game-text {
-  width: 360px;
-  padding: 2rem 1rem;
-  background-color: #fff;
-  text-align: center;
-  -webkit-transition: all 0.75s ease-in;
-  transition: all 0.75s ease-in;
-  opacity: 0;
-}
-
-.rest-wrapper .section-wrapper .game-text h3 {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
-}
-
-.rest-wrapper .section-wrapper .game-text h5 {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-}
-
-.rest-wrapper .section-wrapper .game-text p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-.rest-wrapper .section-wrapper .game-text .btn {
-  color: #fff;
-  padding: 0.5rem 1.5rem;
-}
-
-.rest-wrapper .section-wrapper .game-text .btn:hover {
-  opacity: 0.8;
+@media (max-width: 576px) {
+  .rpg-wrapper {
+    padding: 0;
+  }
+  .rpg-wrapper .game {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
 }
 
 body#cover {
