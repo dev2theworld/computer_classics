@@ -16,26 +16,33 @@
     justify-content: center;
     overflow: hidden;
 
-    section:nth-of-type(1),
     section:nth-of-type(2),
     section:nth-of-type(3) {
     margin: 0;
     }
 
     section:nth-of-type(16),
-    section:nth-of-type(17),
-    section:nth-of-type(18) {
+    section:nth-of-type(17) {
     margin: 0;
     }
   }
 }
 
-@media (min-width: 750px) and (max-width: 1050px) {
+@media (min-width: 750px) and (max-width: 1100px) {
 
   .madness-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto;
+    grid-template-columns: repeat(2, minmax(100px, max-content));
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
+
+    section:nth-of-type(3) {
+    margin: 0;
+    }
+
+    section:nth-of-type(16) {
+    margin: 0;
+    }
   }
 }
