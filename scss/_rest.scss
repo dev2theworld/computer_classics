@@ -15,6 +15,7 @@
       }
   
       &:hover > .game-text {
+        cursor: default;
         margin-left: 0;
         opacity: 1;
       }
@@ -36,6 +37,7 @@
       }
       
       &:hover > .game-text {
+        cursor: default;
         margin-right: 0;
         opacity: 1;
       }
