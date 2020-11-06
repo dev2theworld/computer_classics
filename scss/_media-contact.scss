@@ -1,0 +1,73 @@
+@media (max-width: 992px) {
+  .contact {
+
+    &-form {
+
+      &-bottom {
+        width: auto;
+
+        .socials {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+
+    &-form {
+
+      &-bottom {
+        display: flex;
+        flex-direction: column;
+
+        .inputs {
+          margin-top: 6rem;
+        }
+
+        .socials {
+          width: 300px;
+          margin: 2rem 0 4rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .contact {
+
+    &-header {
+      margin-top: 3rem;
+      height: 25vh;
+
+      h1 {
+        font-size: 1.8rem;
+
+        span {
+          font-size: 2rem;
+        }
+      }
+
+      p {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    &-form {
+
+      height: 65vh;
+      &-top {
+        height: 7vh;
+
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+  }
+}
