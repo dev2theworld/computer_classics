@@ -1448,11 +1448,11 @@ main .about-wrapper section .green .text .btn a {
             flex-direction: column;
   }
   .contact-form-bottom .inputs {
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
   .contact-form-bottom .socials {
     width: 300px;
-    margin: 2rem 0 4rem;
+    margin: 1rem 0 0;
   }
 }
 
