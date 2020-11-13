@@ -1014,7 +1014,21 @@ main .about-wrapper section .green .text .btn a {
   padding: 0;
 }
 
+@media (max-width: 576px) {
+  nav ul li a span {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
+  nav ul li {
+    font-size: 0.8rem;
+  }
+  nav ul li:hover > ul {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
   .footer-top {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1039,26 +1053,12 @@ main .about-wrapper section .green .text .btn a {
   }
 }
 
-/*@media (min-width: 577px) and (max-width: 992px) {
-
-  nav {
-    
-    ul {
-      display: flex;
-
-      li {
-
-        &:hover > ul {
-          visibility: hidden;
-          opacity: 0;
-          display: none;
-        }
-      }
-    }
-  }
-}*/
 @media (max-width: 992px) {
-  nav ul {
+  nav ul li {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  nav ul li a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1066,14 +1066,13 @@ main .about-wrapper section .green .text .btn a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  nav ul li {
-    padding: 0.75rem 0;
-  }
-  nav ul li:hover > ul {
-    visibility: hidden;
-    opacity: 0;
-    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
   }
   main header {
     padding: 1rem;
